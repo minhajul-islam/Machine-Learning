@@ -1,0 +1,14 @@
+a popular loss function
+  = the square of the difference between the label and the prediction
+  = (observation - prediction(x))^2
+  = (y - y')^2
+  
+  ------------------------------
+
+The previous module introduced the idea of dividing your data set into two subsets:
+  1.training set—a subset to train a model.
+  2.test set—a subset to test the trained model.
+  You could imagine slicing the single data set as follows:
+  
+ ----------------------------------------------------------
+Training and Test Sets: Splitting Data
