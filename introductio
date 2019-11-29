@@ -8,3 +8,33 @@ Terminology: Examples and Models
   Model maps examples to predicted labels: y'
      Defined by internal parameters, which are learned
 --------------------------------------------------------
+
+Labels: pridiction
+the future price of wheat,
+the kind of animal shown in a picture,
+the meaning of an audio clip
+
+Features: data
+words in the email text
+sender's address
+time of day the email was sent
+email contains the phrase "one weird trick."
+
+-------------------------------------------------------
+Regression: continuous values
+  A regression model predicts continuous values. 
+  1.What is the value of a house in California?
+  2.What is the probability that a user will click on this ad?
+
+classification:discrete values->category
+  A classification model predicts discrete values. 
+  1.Is a given email message spam or not spam?
+  2.Is this an image of a dog, a cat, or a hamster? 
+  
+ --------------------------------------------------------
+ Models: F vs L (relationship)
+    A model defines the relationship between features and label.
+    Training Models: F vs L relationship input
+    Inference: means applying the trained model to unlabeled examples 
+    unlabeled examples: {features, ?}: (x, ?) to find level using Training Models
+-----------------------------------------------------------------------------------
